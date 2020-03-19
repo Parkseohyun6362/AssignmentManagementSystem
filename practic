@@ -1,0 +1,22 @@
+package practic;
+
+import java.util.Scanner;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		int C;
+		int F;
+		Scanner scan = new Scanner(System.in);
+		
+		F = scan.nextInt();
+		
+		C =  5 * (F - 32) / 9; 
+		
+		
+		System.out.println("F - Temperature : " + F);
+		System.out.println("C - Temperature : " + C);
+		
+	}
+
+}
